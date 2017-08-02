@@ -1,7 +1,11 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Zilla Slab', serif;
+}
+
+.app-container {
+  margin-top: 4em;
 }
 
 .title-container {
@@ -15,10 +19,12 @@ body {
   display: flex;
   align-content: center;
   justify-content: center;
+  font-size: 6em;
 }
 
 .subtitle-text {
   display: flex;
   align-content: center;
   justify-content: center;
+  font-size: 1.4em;
 }
