@@ -4,9 +4,13 @@ import './index.css';
 class BlatentTitle extends Component {
   render() {
     return (
-      <div className="title-container">
-        <div className="title-text">B-LATENT</div>
-        <div className="subtitle-text">revisions of the obvious</div>
+      <div>
+        <div className="row">
+          <div className="title-text">B-LATENT</div>
+        </div>
+        <div className="row">
+          <div className="subtitle-text">revisions of the obvious</div>
+        </div>
       </div>
     );
   }
