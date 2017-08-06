@@ -10,7 +10,7 @@ class App extends Component {
   render() {
     return (
       <div className="App-container">
-        <div>
+        <div style={{ width: '100%' }}>
           <BlatentTitle />
         </div>
         <div>
