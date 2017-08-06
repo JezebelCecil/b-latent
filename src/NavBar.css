@@ -12,7 +12,7 @@
 
 .NavBar-item a {
   text-decoration: none;
-  color: gray;
+  color: black;
   transition: 0.5s ease;
 }
 
@@ -20,10 +20,11 @@
   color: black;
 }
 
-.NavBar-item a:visited {
-  color: gray;
-}
-
 .NavBar-item a:active {
   color: black;
+}
+
+.NavBar-item a {
+  text-decoration: none;
+  color: gray;
 }

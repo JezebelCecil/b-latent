@@ -1,28 +1,17 @@
 .SocialMediaButton-container {
-  color: gray;
   margin: 0.5em;
 }
 
-.SocialMediaButton-container:hover {
-  color: black;
-}
-
 .SocialMediaButton-container a {
-  transition: .5s ease;
-  text-decoration: none;
-}
-
-.SocialMediaButton-container a:visited {
   color: gray;
+  transition: .5s ease;
   text-decoration: none;
 }
 
 .SocialMediaButton-container a:hover {
   color: black;
-  text-decoration: none;
 }
 
 .SocialMediaButton-container a:active {
   color: gray;
-  text-decoration: none;
 }

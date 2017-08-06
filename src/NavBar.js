@@ -1,15 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import './NavBar.css';
 
 export default () =>
   <div className="NavBar-container">
     <div className="NavBar-item">
-      <a href="http://google.com">call for papers</a>
+      <Link to="call-for-papers">call for papers</Link>
     </div>
     <div className="NavBar-item">
-      <a>keynote speakers</a>
+      <Link to="keynote-speakers">keynote speakers</Link>
     </div>
     <div className="NavBar-item">
-      <a>information</a>
+      <Link to="information">information</Link>
     </div>
   </div>;
