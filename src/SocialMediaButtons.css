@@ -1,7 +1,7 @@
 .SocialMediaButtons-container {
   display: flex;
   flex-direction: row;
-  margin: 20px;
+  margin-left: 20px;
 }
 
 .SocialMediaButtons-item {
