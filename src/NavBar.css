@@ -1,0 +1,29 @@
+.NavBar-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.NavBar-item {
+  margin: 10px;
+}
+
+.NavBar-item a {
+  text-decoration: none;
+  color: gray;
+  transition: 0.5s ease;
+}
+
+.NavBar-item a:hover {
+  color: black;
+}
+
+.NavBar-item a:visited {
+  color: gray;
+}
+
+.NavBar-item a:active {
+  color: black;
+}

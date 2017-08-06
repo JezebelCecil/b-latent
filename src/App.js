@@ -3,6 +3,7 @@ import './index.css';
 
 import BlatentTitle from './BlatentTitle.js';
 import Body from './Body.js';
+import NavBar from './NavBar.js';
 import SocialMediaButtons from './SocialMediaButtons.js';
 
 class App extends Component {
@@ -14,6 +15,9 @@ class App extends Component {
         </div>
         <div>
           <Body />
+        </div>
+        <div style={{ width: '100%' }}>
+          <NavBar />
         </div>
         <div>
           <SocialMediaButtons />
