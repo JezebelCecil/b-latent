@@ -8,17 +8,14 @@ import SocialMediaButtons from './SocialMediaButtons.js';
 class App extends Component {
   render() {
     return (
-      <div className="container">
-        <div className="row">
+      <div className="App-container">
+        <div>
           <BlatentTitle />
         </div>
-        <div className="row">
+        <div>
           <Body />
         </div>
-        <div
-          className="row"
-          style={{ display: 'flex', justifyContent: 'center' }}
-        >
+        <div>
           <SocialMediaButtons />
         </div>
       </div>

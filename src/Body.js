@@ -4,7 +4,7 @@ import './Body.css';
 
 class SocialMediaButton extends Component {
   render() {
-    return <div className="body-container" />;
+    return <div className="Body-container" />;
   }
 }
 

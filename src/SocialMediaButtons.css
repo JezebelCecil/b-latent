@@ -1,5 +1,9 @@
-.soc-med-btns-container {
+.SocialMediaButtons-container {
   display: flex;
   flex-direction: row;
+  margin: 20px;
+}
+
+.SocialMediaButtons-item {
   margin: 20px;
 }

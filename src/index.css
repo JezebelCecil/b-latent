@@ -4,32 +4,9 @@ body {
   font-family: 'Zilla Slab', serif;
 }
 
-.app-container {
+.App-container {
   margin-top: 4em;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.title-container {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-}
-
-.title-text {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  font-size: 6em;
-  font-size: 10vw;
-}
-
-.subtitle-text {
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  font-size: 1.4em;
-  font-size: 2.5vw;
 }

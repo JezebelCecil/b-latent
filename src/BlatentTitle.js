@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
-import './index.css';
+import './BlatentTitle.css';
 
 class BlatentTitle extends Component {
   render() {
     return (
-      <div>
-        <div className="row">
-          <div className="title-text">B-LATENT</div>
+      <div className="BlatentTitle-container">
+        <div>
+          <div className="BlatentTitle-title-text">B-LATENT</div>
         </div>
-        <div className="row">
-          <div className="subtitle-text">revisions of the obvious</div>
+        <div>
+          <div className="BlatentTitle-subtitle-text">
+            revisions of the obvious
+          </div>
         </div>
       </div>
     );

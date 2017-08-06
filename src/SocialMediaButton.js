@@ -8,11 +8,11 @@ class SocialMediaButton extends Component {
     const { name, link } = this.props;
 
     return (
-      <a href={link}>
-        <div className="soc-med-btn-container">
+      <div className="SocialMediaButton-container">
+        <a href={link}>
           <FontAwesome name={name} size="lg" />
-        </div>
-      </a>
+        </a>
+      </div>
     );
   }
 }
